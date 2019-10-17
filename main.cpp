@@ -750,7 +750,7 @@ void help()
 }
 void usage() 
 {
-        ppgm(PSTR("\r\n\r\n\r\n\r\n\r\n\r\nSerialHacker\r\n--------\r\n"));
+        ppgm(PSTR("\r\n\r\n\r\n\r\n\r\n\r\nSerialHacker\r\n------------\r\n"));
         pfmt("Rx wait : %d ms \r\n", ustoms(usperrx));
         ppgm(PSTR("TX baud rates: "));
         for (int i=0; i<baudrateslen; i++) 
