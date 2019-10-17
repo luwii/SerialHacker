@@ -8,13 +8,13 @@
  such as a carriage return or other txpatterns that you add. 
  
 <B>Usage:</B>
- 1. To your project add main.cpp to the src tree, and utils.c to the include file tree.
+ 1. To your project add: main.cpp to the src tree, and utils.c to the include file tree.
  2. Read the Usage section in Main.cpp
- 3. Adjust the User Definition section if required
+ 3. Adjust the User Definition section if required.
+ 4. Connect a test board that runs on the same voltage to get a feel for how it work.
 
 <B>Other:</B>
  Testing of this software was performed using a classic Arduino Uno, Pro Mini and a newer Due; against each other and some random boards.
- Obvioulsy be conscious that the voltage levels in the board being tested need to match your 'Arduino'.
  
  Code compiled in PlatformIO under VisualStudio Code.
  
