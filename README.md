@@ -1,4 +1,4 @@
-# SerialHacker (v0.1 2019-10-17) 
+# SerialHacker
  
  This software will help identify serial communication activity on 
  an unknown circuit board.  Connect your 'Arduino' pins to the unknown board 
@@ -9,11 +9,12 @@
  
 <B>Usage:</B>
  1. To your project add: main.cpp to the src tree, and utils.c to the include file tree.
- 2. Read the Usage section in Main.cpp
- 3. Adjust the User Definition section if required.
+ 2. Read the text section in Main.cpp
+ 3. Adjust the User Definition section as required, especially the first setting for the board type.
  4. Connect a test board that runs on the same voltage to get a feel for how it work.
 
-<B>Other:</B>
+<B>Notes:</B>
+
  Testing of this software was performed using a classic Arduino Uno, Pro Mini and a newer Due; against each other and some random boards.
  
  Code compiled in PlatformIO under VisualStudio Code.
