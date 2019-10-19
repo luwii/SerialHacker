@@ -4,7 +4,6 @@
 
 /* 
  SerialHacker (v0.1 2019-10-17) 
- - Based on Github repo for RS232enum  (v0.3.0 20110924) 
  
  This software will help identify serial communication activity on 
  an unknown circuit board.  Connect your 'Arduino' pins to the unknown board 
@@ -49,7 +48,7 @@
 
  RS232enum ORIGINAL AUTHOR & CODE BRANCHES: (Which formed the basis of this)
  http://github.com/cyphunk/RS232enum/ 
- Further documentation for the source project: http://deadhacker.com/tools/
+ 
 
  DEVELOPER NOTES:
  -  pfmt() = local printf()
